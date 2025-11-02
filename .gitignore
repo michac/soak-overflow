@@ -1,0 +1,16 @@
+# Build outputs
+bin/
+obj/
+
+# Generated submission files
+output/
+
+# User-specific files
+*.user
+*.suo
+.vs/
+
+# IDE
+.vscode/
+.idea/
+*.swp

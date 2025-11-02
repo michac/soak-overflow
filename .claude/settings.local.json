@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__microsoft-docs__microsoft_docs_search"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
