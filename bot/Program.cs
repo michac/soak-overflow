@@ -6,7 +6,7 @@ class Player
     static void Main(string[] args)
     {
         // Read initialization input
-        var gameState = GameInput.ReadInitialization();
+        var gameState = GameInput.ReadInitialization(Console.In);
 
         // Create bot instance
         IBot bot = new BasicBot();
@@ -15,7 +15,7 @@ class Player
         while (true)
         {
             // Read turn data
-            GameInput.ReadTurnData(gameState);
+            GameInput.ReadTurnData(Console.In, gameState);
 
             // Decide actions for all agents
             var commands = bot.DecideActions(gameState);
